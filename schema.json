@@ -1,0 +1,95 @@
+{
+  "entries": [
+    {
+      "type": "BuyAtLimitOrStop",
+      "indicators": [
+        {
+          "sma": { "source": "close", "crosses": "over", "period": "20" },
+          "condition": "and"
+        },
+        { "sma": { "source": "close", "crosses": "over", "period": "20" } }
+      ],
+      "qualifiers": [
+        {
+          "sma": { "source": "close", "crosses": "over", "period": "20" },
+          "condition": "or"
+        },
+        { "sma": { "source": "close", "crosses": "over", "period": "20" } }
+      ]
+    },
+    {
+      "type": "BuyAtMarket",
+      "indicators": [],
+      "qualifiers": []
+    },
+    {
+      "type": "shortAtLimitOrStop",
+      "indicators": [],
+      "qualifiers": []
+    },
+    { "type": "shortAtMarket", "indicators": [], "qualifiers": [] }
+  ],
+  "exits": [
+    {
+      "type": "coverAfterNBars",
+      "indicators": [],
+      "qualifiers": []
+    },
+    {
+      "type": "coverAtATRLimitOrStop",
+      "indicators": [],
+      "qualifiers": []
+    },
+    {
+      "type": "coverAtLimitOrStop",
+      "indicators": [],
+      "qualifiers": []
+    },
+    {
+      "type": "coverAtMarket",
+      "indicators": [],
+      "qualifiers": []
+    },
+    {
+      "type": "coverAtProfitTarget",
+      "indicators": [],
+      "qualifiers": []
+    },
+    {
+      "type": "coverAtStopLoss",
+      "indicators": [],
+      "qualifiers": []
+    },
+
+    {
+      "type": "sellAfterNBars",
+      "indicators": [],
+      "qualifiers": []
+    },
+    {
+      "type": "sellAtATRLimitOrStop",
+      "indicators": [],
+      "qualifiers": []
+    },
+    {
+      "type": "sellAtLimitOrStop",
+      "indicators": [],
+      "qualifiers": []
+    },
+    {
+      "type": "sellAtMarket",
+      "indicators": [],
+      "qualifiers": []
+    },
+    {
+      "type": "sellAtProfitTarget",
+      "indicators": [],
+      "qualifiers": []
+    },
+    {
+      "type": "sellAtStopLoss",
+      "indicators": [],
+      "qualifiers": []
+    }
+  ]
+}

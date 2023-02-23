@@ -1,0 +1,24 @@
+{
+  "name": "strategy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/main.ts",
+    "dev:debug": "nodemon --inspect src/main.ts",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.28.5",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.4",
+    "sucrase": "^3.29.0",
+    "vitest": "^0.28.5"
+  }
+}

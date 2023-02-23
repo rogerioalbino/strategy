@@ -1,0 +1,45 @@
+{
+  "entries": [
+    {
+      "name": "BuyAtMarket",
+      "condition": [
+        { "indicator": { "name": "RSI" } },
+        { "relational": "GREATER THAN" },
+        { "indicator": { "name": "Close" } },
+        { "logical": "OR" },
+        { "indicator": { "name": "RSI" } },
+        { "relational": "EQUAL TO" },
+        { "indicator": { "name": "Close" } }
+      ]
+    }
+  ],
+  "exits": []
+}
+
+
+condition = indicator | relational | logic
+
+// if(RSI > Close) || (RSI = Close) then
+//  BuyAtMarket
+//
+
+
+Estratégias de Indicadores
+Regras de Coloração
+Estratégias de Execução (Backtest e Automação)
+Estratégias de Alarmes
+Estratégias de Seleção (Screening)
+
+
+sera possivel criar e salvar, importar blocos
+bloco = 
+      "condition": [
+        { "indicator": { "name": "RSI" } },
+        { "relational": "GREATER THAN" },
+        { "indicator": { "name": "Close" } },
+        { "logical": "OR" },
+        { "indicator": { "name": "RSI" } },
+        { "relational": "EQUAL TO" },
+        { "indicator": { "name": "Close" } }
+      ]
+

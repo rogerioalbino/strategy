@@ -1,0 +1,343 @@
+Alarme
+ alert - Alert
+
+back-testing 
+ buy-at-market - BuyAtMarket 
+ buy-limit - BuyLimit 
+ buy-position - BuyPosition 
+ buy-price - BuyPrice 
+ buy-stop - BuyStop 
+ buy-to-cover-at-market - BuyToCoverAtMarket 
+ buy-to-cover-limit - BuyToCoverLimit 
+ buy-to-cover-stop - BuyToCoverStop 
+ cancel-pending-orders - CancelPendingOrders 
+ close-position - ClosePosition 
+ has-pending-orders - HasPendingOrders 
+ has-position - HasPosition 
+ is-bought - IsBought 
+ is-sold - IsSold 
+ my-price - MyPrice 
+ position - Position
+ price - Price 
+ reverse-position - ReversePosition 
+ sell-position - SellPosition 
+ sell-price - SellPrice 
+ sell-short-at-market - SellShortAtMarket 
+ sell-short-limit - SellShortLimit 
+ sell-short-stop - SellShortStop 
+ sell-toCover-at-market - SellToCoverAtMarket 
+ sell-to-cover-limit - SellToCoverLimit 
+ sell-to-cover-stop - SellToCoverStop 
+ send-order - SendOrder 
+ daily-result - DailyResult
+
+Depuração 
+ console-log - ConsoleLog 
+
+Calendário
+ bar-annualization - BarAnnualization
+ bar-duration - BarDuration
+ bar-duration-f - BarDurationF
+ bar-type - Bartype
+ calc-date - CalcDate
+ calc-time - CalcTime
+ close-d - CloseD
+ close-m - CloseM
+ close-w - CloseW
+ close-y - CloseY
+ current-asset-date - CurrentAssetDate 
+ current-date - CurrentDate
+ current-time - CurrentTime
+ date - Date
+ day-of-month - DayOfMonth
+ day-of-week - DayOfWeek
+ days-to-expiration - DaysToExpiration
+ el-date - ELDate
+ el-date-consol - ELDate_Consol
+ find-bar - FindBar
+ friday - Friday
+ high-d - HighD
+ high-m - HighM
+ high-w - HighW
+ high-y - HighY
+ last-calc-date - LastCalcDate
+ last-calc-time - LastCalcTime
+ last-day-of-month - LastDayOfMonth
+ low-d - LowD
+ low-m - LowM 
+ low-w - LowW 
+ low-y - LowY 
+ monday - Monday 
+ month - Month 
+ next-3rd-friday - Next3rdFriday 
+ open-d - OpenD 
+ open-m - OpenM 
+ open-w - OpenW 
+ open-y - OpenY 
+ rs-bars-per-day - RSBarsPerDay 
+ saturday - Saturday 
+ sunday - Sunday 
+ thursday - Thursday 
+ time - Time 
+ time-to-minutes - TimeToMinutes 
+ tuesday - Tuesday 
+ volume-d - VolumeD 
+ volume-m - VolumeM 
+ volume-w - VolumeW 
+ volume-y - VolumeY 
+ wednesday - Wednesday 
+ year - Year
+
+
+Candlestick
+ c-3wh-solds-3Blk-crows - C3WhSolds3BlkCrows 
+ c-bull-eng-bear-eng - CBullEngBearEng 
+ c-doji - C_Doji 
+ c-hammer-hanging-man - CHammerHangingMan 
+ c-morn-doji-eveDoji - CMornDojiEveDoji 
+ c-morn-star-eveStar - CMornStarEveStar 
+ c-pierce-line-dkCloud - CPierceLineDkCloud 
+ c-shooting-star - CShootingStar
+
+
+Exemplos
+ DiMaisDiMenos 
+ IFR 
+ Media 
+ MediaExp 
+ PaintVar 
+ WellesSum
+
+
+Gráficas - graphic
+ avg-price - AvgPrice 
+ bar-count - BarCount 
+ current-bar - CurrentBar 
+ get-plot-color - GetPlotColor
+ get-plot-width - GetPlotWidth 
+ graphic-interval - GraphicInterval 
+ graphic-offset - GraphicOffset 
+ horizontal-line - HorizontalLine 
+ last-bar-on-chart - LastBarOnChart 
+ leader - Leader 
+ max-bars-back - MaxBarsBack 
+ max-bars-forward - MaxBarsForward 
+ median-price - MedianPrice 
+ no-plot - NoPlot 
+ paint-bar - PaintBar 
+ plot - Plot 
+ plot-n - PlotN 
+ plot-text - PlotText 
+ range - Range 
+ range-leader - RangeLeader 
+ rgb - RGB 
+ set-plot-color - SetPlotColor 
+ set-plot-style - SetPlotStyle 
+ set-plot-type - SetPlotType 
+ set-plot-width - SetPlotWidth 
+ true-high - TrueHigh 
+ true-low - TrueLow 
+ true-range - TrueRange 
+ true-range-custom - TrueRangeCustom 
+ typical-price - TypicalPrice 
+ vertical-line - VerticalLine 
+ weighted-close - WeightedClose
+
+Indicadores
+ acc-agress-saldo - AccAgressSaldo 
+ accu-distr - AccuDistr 
+ accu-distr-w - AccuDistrW 
+ adaptive-moving-average - AdaptiveMovingAverage 
+ adx - ADX 
+ agression-vol-balance - AgressionVolBalance 
+ agression-vol-nbuy - AgressionVolBuy 
+ agression-vol-sell - AgressionVolSell 
+ arms-ease-of-mov - ArmsEaseOfMov 
+ aroon-lin - AroonLin 
+ aroon-osc - AroonOsc 
+ avg-agr-buy-sell - AvgAgrBuySell 
+ avg-agr-total - AvgAgrTotal 
+ avg-separation - AvgSeparation 
+ avg-true-range - AvgTrueRange
+ balance-of-power - BalanceOfPower 
+ bear-power - BearPower 
+ bollinger-bands - BollingerBands 
+ bollinger-band-w - BollingerBandW 
+ bollinger-b-perc - BollingerBPerc 
+ bull-power - BullPower 
+ cci - CCI 
+ chaikin-money-flow - ChaikinMoneyFlow 
+ chaikin-osc - ChaikinOsc 
+ chain-setup - ChainSetup 
+ cohen-price-wave - CohenPriceWave 
+ cohen-weis-wave - CohenWeisWave 
+ contador-de-candle - ContadorDeCandle 
+ darvas-box - DarvasBox 
+ decision-points - DecisionPoints 
+ didi-index - DiDiIndex 
+ di-pdim PDiM - DiPDiM 
+ donchian-ch - DonchianCH 
+ dto-scillator - DTOscillator 
+ envelope - Envelope 
+ euroinvest - Euroinvest 
+ fast-stochastic - FastStochastic 
+ financial-vol - FinancialVol 
+ force-index - ForceIndex 
+ frasson-atr - FrassonATR 
+ frasson-vh - FrassonVH 
+ full-stochastic - FullStochastic 
+ fura-chao - FuraChao 
+ fura-teto - FuraTeto 
+ heikin-ashi - HeikinAshi 
+ hiLo-activator - HiLoActivator 
+ hist-volatility - HistVolatility 
+ hsi - HSI 
+ hullMoving-average - HullMovingAverage 
+ ichimoku-cloud - IchimokuCloud 
+ implied-volatility - ImpliedVolatility 
+ keltner-ch - KeltnerCH 
+ kvo - KVO 
+ linear-regression-channel - LinearRegressionChannel 
+ ls-volatility-index - LSVolatilityIndex 
+ macd - MACD 
+ mfi - MFI 
+ mima - MIMA 
+ momentum - Momentum
+ momentum-stochastic - MomentumStochastic 
+ money-flow - MoneyFlow 
+ money-flow-index - MoneyFlowIndex 
+ nelogica-bottom-finder - NelogicaBottomFinder 
+ nelogica-pull-back-finder - NelogicaPullBackFinder 
+ nelogica-weis-wave - NelogicaWeisWave 
+ o-bv - OBV 
+ o-bva-vg - OBVAvg 
+ on-balance-tr - OnBalanceTR 
+ open-daily - OpenDaily 
+ open-interest - OpenInterest 
+ parabolic-sar - ParabolicSAR 
+ phibo - Phibo 
+ pivot - Pivot 
+ price-nery - PriceNery 
+ price-osc - PriceOsc 
+ price-volume-trend - PriceVolumeTrend 
+ prior-cote - PriorCote 
+ p-tax - PTAX 
+ p-tax-futuro - PTAXFuturo 
+ quantity-vol - QuantityVol 
+ rafi - Rafi 
+ ravi - Ravi 
+ rbg - RBG 
+ renko-v-two - RenkoVTwo 
+ roc - ROC 
+ rsi - RSI 
+ rsi-stochastic - RsiStochastic 
+ safe-zone-down-trend - SafeZoneDownTrend 
+ safe-zone-up-trend - SafeZoneUpTrend 
+ santo - Santo 
+ slow-stochastic - SlowStochastic 
+ stop-atr - StopATR 
+ tendency-tracker - TendencyTracker 
+ tilson - Tilson 
+ time-agr-buy-sell - TimeAgrBuySell 
+ time-agr-total - TimeAgrTotal 
+ top-bottom-detector - TopBottomDetector 
+ trades - Trades 
+ trend-cloud - TrendCloud 
+ trend-sniper - TrendSniper 
+ trix - TRIX 
+ trixm - TRIXM 
+ two-mv-aggression - TwoMVAggression
+ two-mv-power - TwoMVPower 
+ two-mv-standard - TwoMVStandard 
+ two-mv-volatility - TwoMvVolatility 
+ ultimate-oscillator - UltimateOscillator 
+ valerie - Valerie 
+ vss - VSS 
+ vwap - VWAP 
+ vwap-date - VWAPDate 
+ vwap-monthly - VWAPMonthly 
+ vwap-weekly - VWAPWeekly 
+ vwma - VWMA 
+ w-average - WAverage 
+ williams - Williams 
+ x-average - xAverage
+
+Livro
+ ask-price - AskPrice 
+ ask-size - AskSize 
+ bid-price - BidPrice 
+ bid-size - BidSize 
+ book-spread - BookSpread 
+ get-asset - GetAsset 
+ get-feed - GetFeed 
+ is-bmf - IsBMF 
+ lote - Lote 
+ min-price-increment - MinPriceIncrement
+
+Matemáticas
+ abs - ABS 
+ arctangent - Arctangent 
+ ceiling - Ceiling 
+ combination - Combination 
+ cos - Cos 
+ cosine - Cosine 
+ cotangent - Cotangent 
+ cum - Cum 
+ exp - Exp 
+ exp-value - ExpValue 
+ extreme-price-ratio - ExtremePriceRatio 
+ factorial - Factorial 
+ fast-d - FastD 
+ fast-k - FastK 
+ fast-k-custom - FastKCustom 
+ floor - Floor 
+ frac-portion - FracPortion 
+ gcd - GCD
+ harmonic-mean - HarmonicMean 
+ highest - Highest 
+ highest-bar - HighestBar 
+ int-portion - IntPortion 
+ log - Log 
+ lowest - Lowest 
+ lowest-bar - LowestBar 
+ mid-point - MidPoint 
+ minutes-into-week - MinutesIntoWeek 
+ minutes-to-time - MinutesToTime 
+ mod - Mod 
+ neg - Neg 
+ num-units - NumUnits 
+ percent-change - PercentChange 
+ percent-r - PercentR 
+ permutation - Permutation 
+ pos - Pos 
+ power - Power 
+ price-oscillator - PriceOscillator 
+ random - Random 
+ rate-of-change - RateOfChange 
+ round - Round 
+ round-2fraction - Round2Fraction 
+ sign - Sign 
+ sin - Sin 
+ sine - Sine 
+ slowD - SlowD 
+ slowK - SlowK 
+ sqrt - Sqrt 
+ square - Square 
+ std-devs - StdDevs 
+ summation - Summation 
+ tangent - Tangent 
+ tri-average - TriAverage 
+ ulcer-index - UlcerIndex 
+ volatility - Volatility 
+ volume-osc - VolumeOsc 
+ volume-roc - VolumeROC
+
+Opções
+ delta - Delta 
+ gamma - Gamma 
+ rho - Rho 
+ theta - Theta 
+ vega - Vega
+ 
+Screening
+ Select

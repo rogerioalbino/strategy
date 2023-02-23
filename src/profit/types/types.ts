@@ -1,5 +1,6 @@
 import { BuyLimit } from '../back-testing';
 import { BuyAtMarket } from '../back-testing';
+import { Alert } from '../alarme';
 
 import { RSI } from '../indicator';
 
@@ -7,6 +8,7 @@ export type Open = 'open';
 export type High = 'high';
 export type Low = 'low';
 export type Close = 'close';
+
 
 export type Source = Open | High | Low | Close | Volume;
 
@@ -48,3 +50,5 @@ export type Condition = Indicator | Relational | Logic;
 
 export type Entry = BuyLimit | BuyAtMarket;
 export type Exit = BuyAtMarket;
+
+export type Alarme = Alert;

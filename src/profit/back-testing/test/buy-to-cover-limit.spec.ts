@@ -1,10 +1,10 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from "vitest";
 
-import { Price, Quantity, Entry } from "../../types";
+import { Price, Entry } from "../../types";
 import { BuyToCoverLimit } from "../buy-to-cover-limit";
 
-describe('BuyToCoverLimit', () => {
-  it.only('getPrice', () => {
+describe("BuyToCoverLimit", () => {
+  it("getPrice", () => {
     // Arrange
     const buyToCoverLimit: Entry = new BuyToCoverLimit(5.5);
     // Act
@@ -14,12 +14,12 @@ describe('BuyToCoverLimit', () => {
     expect(received).equals(expected);
   });
 
-  it.todo('getQuantity', () => {
+  it("getQuantity", () => {
     // Arrange
-    const buyAtMarket: Entry = new BuyToCoverLimit(5);
+    const buyToCoverLimit: Entry = new BuyToCoverLimit(5.5, 5);
     // Act
-    const received = buyAtMarket.getQuantity();
-    const expected: Quantity = 5;
+    const received: number | undefined = buyToCoverLimit.getQuantity();
+    const expected: number = 5;
     // Assert
     expect(received).equals(expected);
   });

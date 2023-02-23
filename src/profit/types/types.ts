@@ -1,5 +1,6 @@
 import { BuyLimit } from '../back-testing';
 import { BuyAtMarket } from '../back-testing';
+import { BuyToCoverLimit } from '../back-testing';
 
 import { RSI } from '../indicator';
 
@@ -21,7 +22,6 @@ export type Price = number;
 export type Quantity = number;
 export type Period = number;
 export type Volume = number;
-
 
 export type Indicator = RSI;
 
@@ -46,5 +46,5 @@ export type Logic = AND | OR;
 
 export type Condition = Indicator | Relational | Logic;
 
-export type Entry = BuyLimit | BuyAtMarket;
+export type Entry = BuyLimit | BuyAtMarket | BuyToCoverLimit;
 export type Exit = BuyAtMarket;

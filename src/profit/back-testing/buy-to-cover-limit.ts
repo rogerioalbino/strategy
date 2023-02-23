@@ -15,10 +15,18 @@ export class BuyToCoverLimit extends BaseBackTesting {
     this.quantity = quantity;
   }
 
+  /**
+   * @summary Return Price
+   * @returns {number | undefined}
+   */
   public getPrice(): Price {
     return this.price;
   }
 
+  /**
+   * @summary Return Quantity or Undefined
+   * @returns {number | undefined}
+   */
   public getQuantity(): Quantity | undefined {
     return this.quantity;
   }

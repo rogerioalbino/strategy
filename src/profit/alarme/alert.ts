@@ -1,8 +1,10 @@
-export class Alert {
-  protected type: string = this.constructor.name;
+import { BaseAlarme } from "./base-alarme";
+
+export class Alert extends BaseAlarme {
   private color: number;
 
   constructor(color: number) {
+    super();
     this.color = color;
   }
 

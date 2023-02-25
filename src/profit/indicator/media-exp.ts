@@ -1,10 +1,10 @@
 import { BaseIndicator } from './base-indicator';
 
 /**
- * @class XAverage
+ * @class MediaExp
  * @summary Retorna o dado do indicador Média Móvel(Exponencial).
  */
-export class XAverage extends BaseIndicator {
+export class MediaExp extends BaseIndicator {
   constructor() {
     super();
   }

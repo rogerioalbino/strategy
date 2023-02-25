@@ -1,6 +1,6 @@
 /**
  * @class BaseIndicator
- * @summary Retorna o tipo do indicador
+ * @summary Class Base
  */
 export class BaseIndicator {
   protected name: string = this.constructor.name;
@@ -8,7 +8,7 @@ export class BaseIndicator {
   constructor() {}
 
   /**
-   * @summary Retorna o tipo da estrategia
+   * @summary Return Name
    * @returns {string}
    */
   public getName(): string {

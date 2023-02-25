@@ -1,6 +1,10 @@
 import { BaseIndicator } from './base-indicator';
 
-export class TwoMvVolatility extends BaseIndicator {
+/**
+ * @class TwoMVVolatility
+ * @summary Retorna o dado do indicador TwoMVVolatility
+ */
+export class TwoMVVolatility extends BaseIndicator {
   constructor() {
     super();
   }

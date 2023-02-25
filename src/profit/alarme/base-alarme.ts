@@ -1,9 +1,17 @@
+/**
+ * @class BaseAlarme
+ * @summary Class Base
+ */
 export class BaseAlarme {
-    protected name: string = this.constructor.name;
+  protected name: string = this.constructor.name;
 
-    constructor() { }
+  constructor() {}
 
-    public getName(): string {
-        return this.name;
-    }
+  /**
+   * @summary Return Name
+   * @returns {string}
+   */
+  public getName(): string {
+    return this.name;
+  }
 }

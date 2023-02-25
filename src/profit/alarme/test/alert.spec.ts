@@ -6,11 +6,11 @@ import { Alarme } from '../../types';
 describe('Alert', () => {
     it('getColor', () => {
         // Arrange
-        const color: number = 3;
+        const color: string = 'clRed';
         const alert: Alarme = new Alert(color);
         // Act
-        const received: number = alert.getColor();
-        const expected: number = 3;
+        const received: number | string = alert.getColor();
+        const expected: string = 'clRed';
         // Assert
         expect(received).equals(expected);
     });

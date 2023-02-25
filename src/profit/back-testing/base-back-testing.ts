@@ -13,7 +13,7 @@ export class BaseBackTesting {
   }
 
   /**
-   * @summary Retorna o tipo da estrategia
+   * @summary Return Name
    * @returns {string}
    */
   public getName(): string {
@@ -21,7 +21,7 @@ export class BaseBackTesting {
   }
 
   /**
-   * @summary Retorna indicador pelo indice
+   * @summary Return Condition or Undefined
    * @param {number} index
    * @returns {Condition|undefined}
    */
@@ -30,7 +30,7 @@ export class BaseBackTesting {
   }
 
   /**
-   * @summary Retorna lista de indicadores
+   * @summary Return Conditions
    * @returns {Array<Condition>}
    */
   public getConditions(): Array<Condition> {
@@ -38,7 +38,7 @@ export class BaseBackTesting {
   }
 
   /**
-   * @summary Adiciona indicador a lista
+   * @summary Add Condition
    * @param {Condition} condition
    * @returns {void}
    */
@@ -47,7 +47,7 @@ export class BaseBackTesting {
   }
 
   /**
-   * @summary Remove indicador da lista
+   * @summary Remove Condition
    * @param {number} index
    * @returns {void}
    */

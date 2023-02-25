@@ -6,20 +6,20 @@ import { BaseBackTesting } from "./base-back-testing";
  * @summary Envia uma ordem de venda limite para fechar a operação.
  */
 export class SellToCoverLimit extends BaseBackTesting {
-  private readonly price: Price | undefined;
+  private readonly price: Price;
   private readonly quantity: Quantity | undefined;
 
-  constructor(price?: number, quantity?: number) {
+  constructor(price: number, quantity?: number) {
     super();
     this.price = price;
     this.quantity = quantity;
   }
 
   /**
-   * @summary Return Price or Undefined
-   * @returns {number | undefined}
+   * @summary Return Price
+   * @returns {number}
    */
-  public getPrice(): Price | undefined {
+  public getPrice(): Price {
     return this.price;
   }
 

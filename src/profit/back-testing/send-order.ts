@@ -5,19 +5,13 @@ import { BaseBackTesting } from "./base-back-testing";
  * @summary Envia uma ordem customizada.
  */
 export class SendOrder extends BaseBackTesting {
-  private readonly side: number | undefined;
-  private readonly entry: number | undefined;
-  private readonly quantity: number | undefined;
-  private readonly limit: number | undefined;
-  private readonly stop: number | undefined;
+  private readonly side: number;
+  private readonly entry: number;
+  private readonly quantity: number;
+  private readonly limit: number;
+  private readonly stop: number;
 
-  constructor(
-    side: number,
-    entry: number,
-    quantity: number,
-    limit: number,
-    stop: number
-  ) {
+  constructor(side: number, entry: number, quantity: number, limit: number, stop: number) {
     super();
     this.side = side;
     this.entry = entry;
@@ -27,42 +21,42 @@ export class SendOrder extends BaseBackTesting {
   }
 
   /**
-   * @summary Return Side or Undefined
-   * @returns {number | undefined}
+   * @summary Return Side
+   * @returns {number}
    */
-  public getSide(): number | undefined {
+  public getSide(): number {
     return this.side;
   }
 
   /**
-   * @summary Return Entry or Undefined
-   * @returns {number | undefined}
+   * @summary Return Entry
+   * @returns {number}
    */
-  public getEntry(): number | undefined {
+  public getEntry(): number {
     return this.entry;
   }
 
   /**
-   * @summary Return Quantity or Undefined
-   * @returns {number | undefined}
+   * @summary Return Quantity
+   * @returns {number}
    */
-  public getQuantity(): number | undefined {
+  public getQuantity(): number {
     return this.quantity;
   }
 
   /**
-   * @summary Return Limit or Undefined
-   * @returns {number | undefined}
+   * @summary Return Limit
+   * @returns {number}
    */
-  public getLimit(): number | undefined {
+  public getLimit(): number {
     return this.limit;
   }
 
   /**
-   * @summary Return Stop or Undefined
-   * @returns {number | undefined}
+   * @summary Return Stop
+   * @returns {number}
    */
-  public getStop(): number | undefined {
+  public getStop(): number {
     return this.stop;
   }
 }

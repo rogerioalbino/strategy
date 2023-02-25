@@ -1,25 +1,25 @@
-import { Price, Quantity } from '../types/types';
-import { BaseBackTesting } from './base-back-testing';
+import { Price, Quantity } from "../types/types";
+import { BaseBackTesting } from "./base-back-testing";
 
 /**
  * @class BuyLimit
  * @summary Realiza envio de uma ordem limite de compra.
  */
 export class BuyLimit extends BaseBackTesting {
-  private readonly price: Price | undefined;
+  private readonly price: Price;
   private readonly quantity: Quantity | undefined;
 
-  constructor(price?: number, quantity?: number) {
+  constructor(price: number, quantity?: number) {
     super();
     this.price = price;
     this.quantity = quantity;
   }
 
   /**
-   * @summary Return Prece or Undefined
-   * @returns {number | undefined}
+   * @summary Return Prece
+   * @returns {number}
    */
-  public getPrice(): Price | undefined {
+  public getPrice(): Price {
     return this.price;
   }
 

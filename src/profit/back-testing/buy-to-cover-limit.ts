@@ -17,7 +17,7 @@ export class BuyToCoverLimit extends BaseBackTesting {
 
   /**
    * @summary Return Price
-   * @returns {number | undefined}
+   * @returns {number}
    */
   public getPrice(): Price {
     return this.price;

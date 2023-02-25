@@ -1,22 +1,22 @@
-import { BaseBackTesting } from './base-back-testing';
+import { BaseBackTesting } from "./base-back-testing";
 
 /**
  * @class DailyResult
  * @summary Retorna o resultado diário
  */
 export class DailyResult extends BaseBackTesting {
-  private readonly openResult: boolean;
+  private readonly openResult: boolean | undefined;
 
-  constructor(openResult: boolean = true) {
+  constructor(openResult?: boolean) {
     super();
     this.openResult = openResult;
   }
 
   /**
-   * @summary Return Open Reault
+   * @summary Return OpenReault or Undefined
    * @returns {number | undefined}
    */
-  public getOpenResult(): boolean {
+  public getOpenResult(): boolean | undefined {
     return this.openResult;
   }
 }

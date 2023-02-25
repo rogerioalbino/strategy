@@ -12,6 +12,10 @@ export class DailyResult extends BaseBackTesting {
     this.openResult = openResult;
   }
 
+  /**
+   * @summary Return Open Reault
+   * @returns {number | undefined}
+   */
   public getOpenResult(): boolean {
     return this.openResult;
   }

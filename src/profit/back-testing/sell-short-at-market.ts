@@ -1,4 +1,4 @@
-import { BaseBackTesting } from './base-back-testing';
+import { BaseBackTesting } from "./base-back-testing";
 
 /**
  * @class SellShortAtMarket
@@ -12,6 +12,10 @@ export class SellShortAtMarket extends BaseBackTesting {
     this.quantity = quantity;
   }
 
+  /**
+   * @summary Return Quantity or Undefined
+   * @returns {number | undefined}
+   */
   public getQuantity(): number | undefined {
     return this.quantity;
   }

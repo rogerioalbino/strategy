@@ -1,35 +1,41 @@
-import { Entry, Exit } from './types';
+import { Entry, Exit } from "./types";
 
 export class Strategy {
+  private name: string;
   private entries: Array<Entry>;
   private exits: Array<Exit>;
 
-  constructor() {
+  constructor(name: string) {
+    this.name = name;
     this.entries = new Array();
     this.exits = new Array();
   }
 
-  getEntries(): Array<Entry> {
-    return this.entries;
+  public getName(): string {
+    return this.name;
   }
 
-  setEntry(entry: Entry): void {
+  public setEntry(entry: Entry): void {
     this.entries.push(entry);
   }
 
-  removeEntry(index: number): void {
+  public getEntries(): Array<Entry> {
+    return this.entries;
+  }
+
+  public removeEntry(index: number): void {
     this.entries.splice(index, 1);
   }
 
-  getExits(): Array<Exit> {
+  public getExits(): Array<Exit> {
     return this.exits;
   }
 
-  setExit(exit: Exit): void {
+  public setExit(exit: Exit): void {
     this.exits.push(exit);
   }
 
-  removeExit(index: number): void {
+  public removeExit(index: number): void {
     this.exits.splice(index, 1);
   }
 }

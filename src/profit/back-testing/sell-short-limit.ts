@@ -1,5 +1,5 @@
-import { Price, Quantity } from '../types/types';
-import { BaseBackTesting } from './base-back-testing';
+import { Price, Quantity } from "../types/types";
+import { BaseBackTesting } from "./base-back-testing";
 
 /**
  * @class SellShortLimit
@@ -15,10 +15,18 @@ export class SellShortLimit extends BaseBackTesting {
     this.quantity = quantity;
   }
 
+  /**
+   * @summary Return Price or Undefined
+   * @returns {number | undefined}
+   */
   public getPrice(): Price | undefined {
     return this.price;
   }
 
+  /**
+   * @summary Return Quantity or Undefined
+   * @returns {number | undefined}
+   */
   public getQuantity(): Quantity | undefined {
     return this.quantity;
   }

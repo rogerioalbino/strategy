@@ -16,14 +16,26 @@ export class BuyToCoverStop extends BaseBackTesting {
     this.quantity = quantity;
   }
 
+  /**
+   * @summary Return Stop or Undefined
+   * @returns {number | undefined}
+   */
   public getStop(): number | undefined {
     return this.stop;
   }
 
+  /**
+   * @summary Return Limit or Undefined
+   * @returns {number | undefined}
+   */
   public getLimit(): number | undefined {
     return this.limit;
   }
 
+  /**
+   * @summary Return Quantity or Undefined
+   * @returns {number | undefined}
+   */
   public getQuantity(): number | undefined {
     return this.quantity;
   }

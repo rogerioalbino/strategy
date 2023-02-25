@@ -5,6 +5,11 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "debug: dev"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "debug: test",
       "autoAttachChildProcesses": true,
       "skipFiles": ["<node_internals>/**", "**/node_modules/**"],

@@ -12,6 +12,10 @@ export class SellToCoverAtMarket extends BaseBackTesting {
     this.quantity = quantity;
   }
 
+  /**
+   * @summary Return Quantity or Undefined
+   * @returns {number | undefined}
+   */
   public getQuantity(): number | undefined {
     return this.quantity;
   }
